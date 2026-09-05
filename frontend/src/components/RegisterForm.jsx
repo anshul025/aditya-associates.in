@@ -49,7 +49,7 @@ export default function RegisterForm({ t, lang }) {
             {t.form.title}
           </h2>
           <p className="mt-4 text-[#fbf9f5]/70 text-base sm:text-lg max-w-md">{t.form.sub}</p>
-          <div className="mt-8 font-num text-7xl sm:text-8xl text-[#e09f3e]/25 leading-none select-none">50%</div>
+          <div className="mt-8 font-num text-7xl sm:text-8xl text-[#e09f3e]/25 leading-none select-none">35%</div>
         </motion.div>
 
         <motion.form

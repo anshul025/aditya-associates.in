@@ -28,6 +28,8 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - Navbar dark/light adaptive states fixed after verification
 - **Supabase connected (2026-09-05):** leads now write to Supabase Postgres table `aditya_associate_leads`; Alembic migration applied; verified end-to-end via API curl and live website form submission
 - **Google Map card (2026-09-05):** embedded map of Mansarovar Complex office in Contact section, bilingual captions, verified in EN + HI
+- **Polyhouse content expansion (2026-09-05):** user-supplied detail — GI structure definition, 7 polyhouse benefits (40–80% production, 40–60% water saving, export quality etc.), 10 polyhouse crops, net house explainer + 6 benefits + 8 crops, 12 polyhouse + 8 net house components, 9 essential systems, investment cards (₹700–1,200/sqm net, ₹1,000–2,000+/sqm poly), best-for chips. All bilingual.
+- **Subsidy figure change (2026-09-05):** all 50% claims changed to 35% per user instruction (hero, marquee, stats, services, benefits, comparison table, subsidy badge/note, form side graphic). NOTE: user's long text mentioned 40–70% subsidy range; explicit 35% instruction was followed — confirm with user if 40–70% should replace it.
 
 ## Backlog
 - P0: (done) Supabase connection

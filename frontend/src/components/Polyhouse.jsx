@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { BadgePercent, Quote, Leaf } from "lucide-react";
-import { CROPS, BENEFITS, COMPARISON, MEDIA } from "../i18n";
+import { BadgePercent, Quote, Leaf, CheckCircle2, IndianRupee, ListChecks, Wrench, Target } from "lucide-react";
+import { CROPS, BENEFITS, COMPARISON, NET_CROPS, NET_BENEFITS, POLY_COMPONENTS, NET_COMPONENTS, POLY_SYSTEMS, INVESTMENT, BEST_FOR, MEDIA } from "../i18n";
 
 const fade = {
   initial: { opacity: 0, y: 32 },
@@ -95,6 +95,115 @@ export default function Polyhouse({ t, lang }) {
                 ))}
               </tbody>
             </table>
+          </div>
+        </motion.div>
+
+        {/* net house explainer */}
+        <motion.div {...fade} className="mt-16 grid grid-cols-1 lg:grid-cols-12 gap-6" data-testid="nethouse-block">
+          <div className="lg:col-span-7 bg-white rounded-3xl border border-[#0f382c]/12 p-8 sm:p-10">
+            <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#0f382c]">{t.poly.netTitle}</h3>
+            <p className="mt-4 text-[#4b5852] text-base sm:text-lg leading-relaxed">{t.poly.netWhat}</p>
+            <h4 className="mt-8 font-display font-bold text-lg text-[#0f382c] flex items-center gap-2">
+              <CheckCircle2 size={20} className="text-[#d97706]" /> {t.poly.netBenefitsTitle}
+            </h4>
+            <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+              {NET_BENEFITS.map((b, i) => (
+                <li key={i} className="flex items-start gap-2.5 text-sm sm:text-base text-[#131c18]">
+                  <CheckCircle2 size={17} className="text-[#15803d] mt-0.5 shrink-0" />
+                  {lang === "en" ? b.en : b.hi}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="lg:col-span-5 bg-[#1b5e4b] rounded-3xl p-8 sm:p-10 text-[#fbf9f5] relative overflow-hidden">
+            <img src={MEDIA.netHousePhoto} alt="net house" className="absolute inset-0 w-full h-full object-cover opacity-25" loading="lazy" />
+            <div className="relative">
+              <h4 className="font-display font-bold text-xl sm:text-2xl text-[#e09f3e]">{t.poly.netCropsTitle}</h4>
+              <div className="mt-5 flex flex-wrap gap-2" data-testid="nethouse-crops-list">
+                {NET_CROPS.map((c, i) => (
+                  <span key={i} className="bg-[#fbf9f5]/15 backdrop-blur border border-[#fbf9f5]/25 text-[#fbf9f5] text-xs sm:text-sm font-medium rounded-full px-3 py-1.5">
+                    {lang === "en" ? c.en : c.hi}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* components */}
+        <motion.div {...fade} className="mt-16" data-testid="components-block">
+          <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#0f382c] flex items-center gap-3">
+            <Wrench size={26} className="text-[#d97706]" /> {t.poly.componentsTitle}
+          </h3>
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="bg-white rounded-3xl border border-[#0f382c]/12 p-7 sm:p-8">
+              <h4 className="font-display font-bold text-lg text-[#0f382c] mb-5">{t.poly.polyCompLabel}</h4>
+              <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+                {POLY_COMPONENTS.map((c, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-[#131c18]">
+                    <span className="font-num text-xl text-[#d97706] leading-none mt-0.5 shrink-0">{String(i + 1).padStart(2, "0")}</span>
+                    {lang === "en" ? c.en : c.hi}
+                  </li>
+                ))}
+              </ol>
+            </div>
+            <div className="bg-white rounded-3xl border border-[#0f382c]/12 p-7 sm:p-8">
+              <h4 className="font-display font-bold text-lg text-[#0f382c] mb-5">{t.poly.netCompLabel}</h4>
+              <ol className="space-y-3">
+                {NET_COMPONENTS.map((c, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-[#131c18]">
+                    <span className="font-num text-xl text-[#d97706] leading-none mt-0.5 shrink-0">{String(i + 1).padStart(2, "0")}</span>
+                    {lang === "en" ? c.en : c.hi}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* systems */}
+        <motion.div {...fade} className="mt-16 bg-[#0f382c] rounded-3xl p-8 sm:p-10" data-testid="systems-block">
+          <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#fbf9f5] flex items-center gap-3">
+            <ListChecks size={26} className="text-[#e09f3e]" /> {t.poly.systemsTitle}
+          </h3>
+          <div className="mt-6 flex flex-wrap gap-2.5">
+            {POLY_SYSTEMS.map((s, i) => (
+              <span key={i} className="bg-[#fbf9f5]/10 border border-[#e09f3e]/30 text-[#fbf9f5] text-xs sm:text-sm font-medium rounded-full px-4 py-2">
+                {lang === "en" ? s.en : s.hi}
+              </span>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* investment */}
+        <motion.div {...fade} className="mt-16" data-testid="investment-block">
+          <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#0f382c] flex items-center gap-3">
+            <IndianRupee size={26} className="text-[#d97706]" /> {t.poly.investTitle}
+          </h3>
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {INVESTMENT.map((inv, i) => (
+              <div key={i} className="lift bg-white rounded-3xl border border-[#0f382c]/12 p-7 sm:p-8">
+                <h4 className="font-display font-bold text-lg text-[#0f382c]">{lang === "en" ? inv.label_en : inv.label_hi}</h4>
+                <div className="mt-3 font-num text-5xl sm:text-6xl text-[#d97706] leading-none">{inv.range}</div>
+                <div className="text-sm font-semibold text-[#0f382c]/70 mt-1">{lang === "en" ? inv.unit_en : inv.unit_hi}</div>
+                <p className="mt-3 text-sm text-[#4b5852]">{lang === "en" ? inv.note_en : inv.note_hi}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-4 text-xs sm:text-sm text-[#4b5852]/80 italic">{t.poly.investNote}</p>
+        </motion.div>
+
+        {/* best for */}
+        <motion.div {...fade} className="mt-16" data-testid="best-for-block">
+          <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#0f382c] flex items-center gap-3">
+            <Target size={26} className="text-[#d97706]" /> {t.poly.bestForTitle}
+          </h3>
+          <div className="mt-6 flex flex-wrap gap-2.5">
+            {BEST_FOR.map((b, i) => (
+              <span key={i} className="bg-[#0f382c] text-[#fbf9f5] text-xs sm:text-sm font-semibold rounded-full px-4 py-2.5">
+                {lang === "en" ? b.en : b.hi}
+              </span>
+            ))}
           </div>
         </motion.div>
 
