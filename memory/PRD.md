@@ -10,9 +10,8 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 
 ## Architecture
 - Frontend: React (CRA + craco), Tailwind, framer-motion, lenis smooth scroll, sonner toasts. Full i18n dictionary in `src/i18n.js` (EN/HI toggle, persisted per session state).
-- Backend: FastAPI `/api/register` (POST lead), `/api/registrations` (GET lead list). Leads currently stored in MongoDB (`registrations` collection).
-- Media: 3 real polyhouse videos + net house photo + business card served from customer-assets CDN URLs.
-- Supabase: PENDING — awaiting user's Transaction Pooler URI (port 6543) to migrate lead storage to Supabase table `aditya_associate_leads`.
+- Backend: FastAPI `/api/register` (POST lead), `/api/registrations` (GET lead list).
+- Database: **Supabase PostgreSQL** (project zrphwkpwlxcirvhkadup, ap-south-1, Transaction Pooler) — table `aditya_associate_leads` (id, name, phone, service, district, message, language, created_at). SQLAlchemy async + Alembic migrations (`/app/backend/alembic`). DATABASE_URL in backend/.env.
 
 ## Core Requirements (static)
 - Bilingual EN/HI full-site toggle
@@ -27,9 +26,10 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - EN/HI language toggle across entire site (Devanagari font pairing)
 - Backend lead capture + listing endpoints (verified with curl)
 - Navbar dark/light adaptive states fixed after verification
+- **Supabase connected (2026-09-05):** leads now write to Supabase Postgres table `aditya_associate_leads`; Alembic migration applied; verified end-to-end via API curl and live website form submission
 
 ## Backlog
-- P0: Connect Supabase (needs Transaction Pooler URI from user) → table `aditya_associate_leads`, migrate existing leads
+- P0: (done) Supabase connection
 - P1: WhatsApp click-to-chat button (wa.me/917400855738)
 - P1: Admin leads page on the site (password-protected) so owner sees leads without Supabase dashboard
-- P2: Google Maps embed of office; more project photos/videos as work grows; SEO meta/OG tags
+- P2: Google Maps embed of office; more project photos/videos as work grows; SEO meta/OG tags; delete the 2 test leads from Supabase
