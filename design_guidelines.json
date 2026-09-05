@@ -1,0 +1,338 @@
+{
+  "project_name": "Aditya Associate - Premium Agritech & Polyhouse Faciltation Consultancy",
+  "app_type": "marketing_site",
+  "target_audience": "Indian farmers, agri-entrepreneurs, polyhouse investors, and food processing unit owners seeking 50% govt subsidy, bank loans, and turn-key construction.",
+  "archetype": "ORGANIC & EARTHY WITH TACTICAL PRECISION",
+  "theme": "Light theme default with rich organic tones (Forest Emerald, Solar Amber, Terracotta, Bone White)",
+  "language_support": {
+    "supported_languages": ["en", "hi"],
+    "default": "en",
+    "toggle_mechanism": "Header badge switcher with instant full-text i18n dictionary state"
+  },
+  "typography": {
+    "font_families": {
+      "heading_en": "'Outfit', 'Cabinet Grotesk', sans-serif",
+      "body_en": "'Inter', sans-serif",
+      "heading_hi": "'Teko', 'Noto Serif Devanagari', serif",
+      "body_hi": "'Poppins', 'Noto Sans Devanagari', sans-serif"
+    },
+    "font_imports": "https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@600;700&family=Outfit:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Teko:wght@600;700&display=swap",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none",
+      "h2_section": "text-3xl sm:text-4xl font-bold tracking-tight leading-snug",
+      "h3_card": "text-xl sm:text-2xl font-semibold leading-snug",
+      "body_text": "text-base sm:text-lg text-emerald-950/80 leading-relaxed",
+      "caption": "text-xs sm:text-sm font-medium tracking-wider uppercase text-emerald-700"
+    }
+  },
+  "colors": {
+    "primary_emerald": "#0F382C",
+    "emerald_light": "#1B5E4B",
+    "accent_gold": "#D97706",
+    "accent_solar_amber": "#E09F3E",
+    "accent_terracotta": "#C85A32",
+    "bg_bone": "#FBF9F5",
+    "bg_surface": "#FFFFFF",
+    "bg_surface_muted": "#F3F0E6",
+    "text_dark": "#131C18",
+    "text_muted": "#4B5852",
+    "border_subtle": "rgba(15, 56, 44, 0.12)",
+    "glass_bg": "rgba(255, 255, 255, 0.85)",
+    "glass_border": "rgba(255, 255, 255, 0.4)",
+    "subsidy_badge": "#15803D"
+  },
+  "layout_and_spacing": {
+    "generous_spacing": "py-16 md:py-24 px-4 sm:px-8 max-w-7xl mx-auto",
+    "hero_layout": "Asymmetric bento grid with auto-playing polyhouse construction video reel, key stats pill, and direct registration trigger",
+    "grid_modes": {
+      "services_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8",
+      "polyhouse_deepdive": "grid grid-cols-1 lg:grid-cols-12 gap-8 items-center",
+      "comparison_table": "grid grid-cols-1 md:grid-cols-2 gap-6"
+    }
+  },
+  "media_assets": {
+    "videos": [
+      {
+        "id": "polyhouse_video_1",
+        "title": "Real Polyhouse Site Frame & Film Installation (Bhopal)",
+        "url": "https://customer-assets.emergent.sh/aditya-associates/polyhouse_video_1.mp4",
+        "category": "Polyhouse Construction"
+      },
+      {
+        "id": "polyhouse_video_2",
+        "title": "Polyhouse Structure Erection Work in Progress",
+        "url": "https://customer-assets.emergent.sh/aditya-associates/polyhouse_video_2.mp4",
+        "category": "Site Inspection"
+      },
+      {
+        "id": "polyhouse_video_3",
+        "title": "Finished High-Tech Polyhouse Operational View",
+        "url": "https://customer-assets.emergent.sh/aditya-associates/polyhouse_video_3.mp4",
+        "category": "Operational Polyhouse"
+      }
+    ],
+    "photos": [
+      {
+        "id": "nethouse_photo_1",
+        "title": "Real Net House Interior & Crop Yield - Aditya Associate Field Project",
+        "url": "https://customer-assets.emergent.sh/aditya-associates/nethouse_photo_1.jpg",
+        "category": "Net House"
+      },
+      {
+        "id": "business_card_logo",
+        "title": "Aditya Associate Official Business Card & Flame Logo",
+        "url": "https://customer-assets.emergent.sh/aditya-associates/aditya_business_card.png",
+        "category": "Branding / Verification"
+      },
+      {
+        "id": "capsicum_tomato_crops",
+        "title": "High Yield Polyhouse Tomatoes & Capsicum Cultivation",
+        "url": "https://images.unsplash.com/photo-1530541835461-dedaf9cf368a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHw0fHxncmVlbmhvdXNlJTIwY3JvcHN8ZW58MHx8fHwxNzg4NjAxNDI5fDA&ixlib=rb-4.1.0&q=85",
+        "category": "Crops"
+      },
+      {
+        "id": "polyhouse_structure_wide",
+        "title": "UV-Stabilized Polyfilm Multi-Span Structure",
+        "url": "https://images.unsplash.com/photo-1708796705570-33fd29ef67d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxncmVlbmhvdXNlJTIwY3JvcHN8ZW58MHx8fHwxNzg4NjAxNDI5fDA&ixlib=rb-4.1.0&q=85",
+        "category": "Polyhouse"
+      },
+      {
+        "id": "smart_greenhouse_tech",
+        "title": "Automated Climate & Drip Irrigation Micro-Control",
+        "url": "https://images.unsplash.com/photo-1524486361537-8ad15938e1a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwxfHxzbWFydCUyMGdyZWVuaG91c2V8ZW58MHx8fHwxNzg4NjAxNDI5fDA&ixlib=rb-4.1.0&q=85",
+        "category": "Technology"
+      },
+      {
+        "id": "happy_indian_farmer",
+        "title": "Prosperous Indian Farmer in Lush Crop Field",
+        "url": "https://images.pexels.com/photos/29039798/pexels-photo-29039798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "Farmer Impact"
+      }
+    ]
+  },
+  "business_details": {
+    "name": "Aditya Associate",
+    "tagline_en": "Your Trusted One-Roof Solution for Agriculture Subsidies, Bank Loans & Polyhouse Construction",
+    "tagline_hi": "कृषि सब्सिडी, बैंक ऋण और पॉलीहाउस निर्माण के लिए आपकी विश्वसनीय एक-छत समाधान",
+    "location": "Bhopal, Madhya Pradesh, India",
+    "address": "MB7 Mezzanine Floor Mansarovar Complex, Near BJP Office, Bhopal (M.P.)",
+    "phone": "74008 55738",
+    "email": "adityaassociates2025@gmail.com",
+    "one_roof_services": [
+      "Government Subsidy Facilitation (MIDH / NHB up to 50%)",
+      "Detailed Project Report (DPR) Preparation",
+      "Bank Loan Documentation & Approval",
+      "Turnkey Polyhouse & Net House Construction",
+      "MPIDC & Land Conversion Permissions",
+      "MSME / Startup India / Food Processing Grants"
+    ]
+  },
+  "services_list": [
+    {
+      "id": "poly-house",
+      "title_en": "Poly House Construction & Subsidies",
+      "title_hi": "पॉलीहाउस निर्माण एवं सब्सिडी",
+      "desc_en": "Complete high-tech UV-stabilized polyhouse design, structure erection, drip system & up to 50% MIDH/NHB subsidy processing.",
+      "desc_hi": "पूरी उच्च तकनीक यूवी-स्थिर पॉलीहाउस डिज़ाइन, संरचना निर्माण, ड्रिप सिस्टम और 50% तक एमआईडीएच/एनएचबी सब्सिडी प्रोसेसिंग।",
+      "is_featured": true
+    },
+    {
+      "id": "net-house",
+      "title_en": "Net House Setup",
+      "title_hi": "नेट हाउस सेटअप",
+      "desc_en": "Cost-effective shade net structures protecting crops from excessive sunlight, wind, and pests.",
+      "desc_hi": "फसलों को अत्यधिक धूप, हवा और कीटों से बचाने वाले किफायती शेड नेट स्ट्रक्चर।"
+    },
+    {
+      "id": "subsidy-bank-loan",
+      "title_en": "Subsidy Bank Loan Facilitation",
+      "title_hi": "सब्सिडी बैंक ऋण सुविधा",
+      "desc_en": "End-to-end assistance in securing bank loans linked with Central & State agricultural subsidies.",
+      "desc_hi": "केंद्र और राज्य कृषि सब्सिडी से जुड़े बैंक ऋण प्राप्त करने में पूर्ण सहायता।"
+    },
+    {
+      "id": "msme-subsidy",
+      "title_en": "MSME Subsidy",
+      "title_hi": "एमएसएमई सब्सिडी",
+      "desc_en": "Subsidies, capital assistance, and incentives for Micro, Small & Medium Agri Enterprises.",
+      "desc_hi": "सूक्ष्म, लघु और मध्यम कृषि उद्यमों के लिए सब्सिडी, पूंजी सहायता और प्रोत्साहन।"
+    },
+    {
+      "id": "food-processing",
+      "title_en": "Food Processing Unit Subsidy",
+      "title_hi": "खाद्य प्रसंस्करण इकाई सब्सिडी",
+      "desc_en": "PMKSY and state scheme subsidies for setting up grading, sorting, cold chain, and value-addition units.",
+      "desc_hi": "ग्रेडिंग, सॉर्टिंग, कोल्ड चेन और मूल्य-वर्धन इकाइयों की स्थापना के लिए पीएमकेएसवाई सब्सिडी।"
+    },
+    {
+      "id": "land-mpidc",
+      "title_en": "Land & MPIDC Permission",
+      "title_hi": "भूमि एवं एमपीआईडीसी अनुमति",
+      "desc_en": "Industrial land allocation, NOCs, and MPIDC approval for agritech and commercial setups.",
+      "desc_hi": "कृषि तकनीक और वाणिज्यिक सेटअप के लिए औद्योगिक भूमि आवंटन, एनओसी और एमपीआईडीसी मंजूरी।"
+    },
+    {
+      "id": "govt-permissions",
+      "title_en": "Government Permissions & Clearances",
+      "title_hi": "सरकारी अनुमतियां एवं स्वीकृतियां",
+      "desc_en": "Streamlined approvals from Agriculture, Pollution Control, Electricity, and Revenue departments.",
+      "desc_hi": "कृषि, प्रदूषण नियंत्रण, बिजली और राजस्व विभागों से सुव्यवस्थित स्वीकृतियां।"
+    },
+    {
+      "id": "startup-india",
+      "title_en": "Startup India Registration",
+      "title_hi": "स्टार्टअप इंडिया पंजीकरण",
+      "desc_en": "DPIIT recognition for agritech startups to claim tax exemptions and government grant access.",
+      "desc_hi": "कर छूट और सरकारी अनुदान पहुंच का दावा करने के लिए एग्रीटेक स्टार्टअप्स के लिए डीपीआईआईटी मान्यता।"
+    },
+    {
+      "id": "gst-work",
+      "title_en": "GST Work & Compliance",
+      "title_hi": "जीएसटी कार्य एवं अनुपालन",
+      "desc_en": "Hassle-free GST registration, monthly filing, and tax advisory tailored for agri-businesses.",
+      "desc_hi": "कृषि व्यवसायों के लिए परेशानी मुक्त जीएसटी पंजीकरण, मासिक रिटर्न फाइलिंग और टैक्स परामर्श।"
+    },
+    {
+      "id": "udyam-registration",
+      "title_en": "Udyam Registration",
+      "title_hi": "उद्यम पंजीकरण",
+      "desc_en": "Official MSME Udyam Certificate for priority sector bank lending and govt tender eligibility.",
+      "desc_hi": "प्राथमिकता क्षेत्र बैंक ऋण और सरकारी निविदा पात्रता के लिए आधिकारिक एमएसएमई उद्यम प्रमाणपत्र।"
+    },
+    {
+      "id": "certificates",
+      "title_en": "Agri & Quality Certificates",
+      "title_hi": "कृषि एवं गुणवत्ता प्रमाण पत्र",
+      "desc_en": "FSSAI, ISO, organic farming certifications, and soil/water audit documentation.",
+      "desc_hi": "एफएसएसएआई, आईएसओ, जैविक खेती प्रमाणपत्र और मिट्टी/पानी लेखा परीक्षा दस्तावेज।"
+    },
+    {
+      "id": "cold-storage-dpr",
+      "title_en": "Cold Storage & DPR Preparation",
+      "title_hi": "कोल्ड स्टोरेज एवं डीपीआर निर्माण",
+      "desc_en": "Bankable Detailed Project Reports (DPR) for Cold Rooms, Packhouses, and Polyhouse loan sanctions.",
+      "desc_hi": "कोल्ड रूम, पैकहाउस और पॉलीहाउस ऋण स्वीकृति के लिए विस्तृत परियोजना रिपोर्ट (डीपीआर)।"
+    }
+  ],
+  "polyhouse_deepdive": {
+    "what_is_polyhouse": {
+      "en": "A Polyhouse is an engineered greenhouse structure covered with high-grade UV-stabilized polyethylene film. It creates a controlled micro-environment regulating temperature, humidity, light intensity, and CO2 levels—enabling 365-day crop cultivation independent of external climate shocks.",
+      "hi": "पॉलीहाउस एक उच्च-ग्रेड यूवी-स्थिर पॉलीथीन फिल्म से ढकी इंजीनियर ग्रीनहाउस संरचना है। यह एक नियंत्रित सूक्ष्म वातावरण बनाता है जो तापमान, आर्द्रता, प्रकाश की तीव्रता और CO2 के स्तर को नियंत्रित करता है - बाहरी जलवायु झटकों से स्वतंत्र 365 दिन फसल की खेती को सक्षम बनाता है।"
+    },
+    "key_crops": [
+      { "name_en": "Colored Capsicum", "name_hi": "रंग-बिरंगी शिमला मिर्च", "profit": "High Market Value" },
+      { "name_en": "English Cucumber", "name_hi": "इंग्लिश खीरा", "profit": "Fast Harvesting Cycle" },
+      { "name_en": "Polyhouse Tomato", "name_hi": "पॉलीहाउस टमाटर", "profit": "3x Premium Yield" },
+      { "name_en": "Strawberries", "name_hi": "स्ट्रॉबेरी", "profit": "Exotic Profit Return" },
+      { "name_en": "Dutch Rose & Gerbera", "name_hi": "डच गुलाब एवं जरबेरा", "profit": "Floriculture Export Quality" }
+    ],
+    "key_benefits": [
+      {
+        "title_en": "2x to 5x Crop Yield",
+        "title_hi": "2 से 5 गुना अधिक पैदावार",
+        "desc_en": "Optimized vertical growth and climate control multiply harvest volume per square meter."
+      },
+      {
+        "title_en": "Up to 50% Government Subsidy",
+        "title_hi": "50% तक सरकारी सब्सिडी",
+        "desc_en": "Avail direct Capital Subsidy under MIDH & National Horticulture Board (NHB) schemes."
+      },
+      {
+        "title_en": "100% Weather & Pest Protection",
+        "title_hi": "मौसम एवं कीटों से पूर्ण सुरक्षा",
+        "desc_en": "Shield crops from unseasonal rains, hailstorms, frost, heatwaves, and viral insect attacks."
+      },
+      {
+        "title_en": "80% Water & Fertilizer Saving",
+        "title_hi": "80% पानी एवं उर्वरक की बचत",
+        "desc_en": "Precision drip irrigation and fertigation feed exact nutrients directly to roots."
+      }
+    ],
+    "polyhouse_vs_nethouse": [
+      {
+        "feature_en": "Covering Material",
+        "feature_hi": "कवरिंग सामग्री",
+        "polyhouse_en": "200 Micron UV-Stabilized Polyethylene Film",
+        "polyhouse_hi": "200 माइक्रोन यूवी-स्थिर पॉलीथीन फिल्म",
+        "nethouse_en": "HDPE Mono/Tape Shade Net (35%-75% shade)",
+        "nethouse_hi": "एचडीपीई शेड नेट (35%-75% छाया)"
+      },
+      {
+        "feature_en": "Micro-Climate Control",
+        "feature_hi": "माइक्रो-क्लाइमेट नियंत्रण",
+        "polyhouse_en": "Full Temperature, Humidity & Rain Control",
+        "polyhouse_hi": "पूर्ण तापमान, आर्द्रता और बारिश नियंत्रण",
+        "nethouse_en": "Partial Shade & Wind Protection (Allows Rain)",
+        "nethouse_hi": "आंशिक छाया और हवा की सुरक्षा (बारिश आने देता है)"
+      },
+      {
+        "feature_en": "Year-Round Cultivation",
+        "feature_hi": "वर्ष भर खेती",
+        "polyhouse_en": "365 Days (Extreme Monsoon & Winter included)",
+        "polyhouse_hi": "365 दिन (अत्यधिक मानसून और सर्दी शामिल)",
+        "nethouse_en": "Seasonal / Protected Shade Crops",
+        "nethouse_hi": "मौसमी/संरक्षित शेड फसलें"
+      },
+      {
+        "feature_en": "Average Yield Lift",
+        "feature_hi": "औसत उपज वृद्धि",
+        "polyhouse_en": "3x to 5x Open Field",
+        "polyhouse_hi": "खुले खेत से 3 से 5 गुना",
+        "nethouse_en": "2x to 3x Open Field",
+        "nethouse_hi": "खुले खेत से 2 से 3 गुना"
+      },
+      {
+        "feature_en": "Subsidy Coverage",
+        "feature_hi": "सब्सिडी कवरेज",
+        "polyhouse_en": "Up to 50% under MIDH / NHB",
+        "polyhouse_hi": "एमआईडीएच / एनएचबी के तहत 50% तक",
+        "nethouse_en": "Up to 50% State Horticulture Scheme",
+        "nethouse_hi": "राज्य उद्यानिकी योजना के तहत 50% तक"
+      }
+    ]
+  },
+  "backend_integration": {
+    "supabase_table": "registrations",
+    "form_fields": [
+      { "name": "full_name", "label_en": "Full Name", "label_hi": "पूरा नाम", "required": true },
+      { "name": "phone_number", "label_en": "Mobile Number", "label_hi": "मोबाइल नंबर", "required": true },
+      { "name": "service_required", "label_en": "Service Needed", "label_hi": "आवश्यक सेवा", "required": true },
+      { "name": "district_city", "label_en": "District / City (M.P. / India)", "label_hi": "जिला / शहर", "required": true },
+      { "name": "land_area", "label_en": "Land Area (Acres / Sq. Meters)", "label_hi": "भूमि क्षेत्र (एकड़ / वर्ग मीटर)", "required": false },
+      { "name": "message", "label_en": "Message / Details", "label_hi": "संदेश / विवरण", "required": false }
+    ],
+    "fallback_endpoint": "/api/register"
+  },
+  "testing_and_attributes": {
+    "data_testid_rules": "All interactive buttons, inputs, links, language toggles, video triggers, dialogs, and submission notices MUST have explicit data-testid attributes.",
+    "key_test_ids": {
+      "nav_brand": "nav-brand-logo",
+      "language_toggle": "language-toggle-btn",
+      "apply_nav_btn": "nav-apply-register-btn",
+      "hero_apply_btn": "hero-apply-register-btn",
+      "polyhouse_deepdive_section": "polyhouse-deepdive-section",
+      "services_grid": "services-grid-container",
+      "work_gallery_section": "work-gallery-section",
+      "video_player_modal": "video-player-modal",
+      "apply_form_submit": "registration-form-submit-btn",
+      "input_full_name": "input-full-name",
+      "input_phone": "input-phone-number",
+      "select_service": "select-service-required",
+      "input_district": "input-district-city",
+      "input_message": "input-message",
+      "contact_phone_link": "contact-phone-link",
+      "contact_email_link": "contact-email-link",
+      "contact_address": "contact-address-text"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. Read all fields in design_guidelines.json carefully and load fonts Outfit, Teko, Noto Sans Devanagari, and Poppins into public/index.html or index.css.",
+    "2. Implement a full bilingual i18n switcher (English and Hindi) with persistent state so every card, benefit, deep-dive section, and form field flips seamlessly.",
+    "3. Build a kinetic, premium hero section showcasing real video player modals / inline stream for Aditya Associate's 3 real polyhouse construction MP4 videos.",
+    "4. Feature the focus product (POLYHOUSE) prominently with crop yields, comparison matrix against Net House, 50% subsidy guide, and 1-roof consultancy pitch.",
+    "5. Use Shadcn components for forms, dialogs, select inputs, tabs, and Sonner for toast notifications.",
+    "6. Connect the Apply/Register lead form to Supabase 'registrations' table with client fallback to backend endpoint if Supabase keys are initializing.",
+    "7. Include exact contact details: 74008 55738, adityaassociates2025@gmail.com, MB7 Mezzanine Floor Mansarovar Complex, Near BJP Office, Bhopal (M.P.).",
+    "8. Guarantee every interactive element carries data-testid for automated verification."
+  ]
+}

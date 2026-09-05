@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@600;700&family=Outfit:wght@500;600;700;800;900&family=Poppins:wght@400;500;600&family=Teko:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --emerald: #0f382c;
+  --emerald-light: #1b5e4b;
+  --gold: #d97706;
+  --amber: #e09f3e;
+  --terracotta: #c85a32;
+  --bone: #fbf9f5;
+  --muted-surface: #f3f0e6;
+  --ink: #131c18;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  background: var(--bone);
+  color: var(--ink);
+  font-family: "Poppins", "Noto Sans Devanagari", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: "Outfit", "Noto Serif Devanagari", sans-serif;
+}
+.font-num {
+  font-family: "Teko", "Outfit", sans-serif;
+}
+.lang-hi .font-display {
+  font-family: "Noto Serif Devanagari", "Outfit", serif;
+}
+
+::selection {
+  background: var(--gold);
+  color: #fff;
+}
+
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.mask-line {
+  overflow: hidden;
+  display: block;
+}
+
+@keyframes marquee-x {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-x 36s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.lift {
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease;
+}
+.lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -20px rgba(15, 56, 44, 0.28);
+}
+
+.video-frame video {
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.video-frame:hover video {
+  transform: scale(1.04);
+}
