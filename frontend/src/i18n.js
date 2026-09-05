@@ -308,6 +308,8 @@ const en = {
     addressLabel: "Office",
     address: "MB7, Mezzanine Floor, Mansarovar Complex, Near BJP Office, Bhopal (M.P.)",
     cardCaption: "Our visiting card — save it, share it.",
+    mapTitle: "Find our office on the map",
+    mapNote: "Mansarovar Complex, Near BJP Office, Bhopal — easy to reach by auto or bike.",
   },
   footer: {
     tagline: "Aditya Associate — agriculture subsidies, bank loans and polyhouse construction, under one roof.",
@@ -391,6 +393,8 @@ const hi = {
     addressLabel: "कार्यालय",
     address: "MB7, मेज़नाइन फ्लोर, मानसरोवर कॉम्प्लेक्स, BJP ऑफिस के पास, भोपाल (म.प्र.)",
     cardCaption: "हमारा विज़िटिंग कार्ड — सेव करें, शेयर करें।",
+    mapTitle: "नक्शे पर हमारा कार्यालय",
+    mapNote: "मानसरोवर कॉम्प्लेक्स, BJP ऑफिस के पास, भोपाल — ऑटो या बाइक से आसान पहुंच।",
   },
   footer: {
     tagline: "आदित्य एसोसिएट — कृषि सब्सिडी, बैंक ऋण और पॉलीहाउस निर्माण, एक ही छत के नीचे।",

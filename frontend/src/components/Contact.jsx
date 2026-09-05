@@ -93,6 +93,32 @@ export default function Contact({ t }) {
             <figcaption className="mt-3 text-center text-sm text-[#4b5852]">{t.contact.cardCaption}</figcaption>
           </motion.figure>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 28 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-40px" }}
+          transition={{ duration: 0.7 }}
+          className="mt-6 rounded-3xl overflow-hidden border border-[#0f382c]/12 bg-white"
+          data-testid="office-map-card"
+        >
+          <div className="p-5 sm:p-6 flex items-center gap-3">
+            <span className="w-10 h-10 rounded-xl bg-[#0f382c]/8 text-[#1b5e4b] grid place-items-center shrink-0">
+              <MapPin size={20} />
+            </span>
+            <div>
+              <h3 className="font-display font-bold text-[#0f382c] text-lg sm:text-xl">{t.contact.mapTitle}</h3>
+              <p className="text-sm text-[#4b5852]">{t.contact.mapNote}</p>
+            </div>
+          </div>
+          <iframe
+            title="Aditya Associate Office Map — Mansarovar Complex, Bhopal"
+            src="https://maps.google.com/maps?q=Mansarovar%20Complex%2C%20Near%20BJP%20Office%2C%20Bhopal%2C%20Madhya%20Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            className="w-full h-80 sm:h-96 border-0"
+            loading="lazy"
+            data-testid="office-map-iframe"
+          />
+        </motion.div>
       </section>
 
       <footer className="bg-[#0f382c] text-[#fbf9f5] py-12 px-4 sm:px-8">

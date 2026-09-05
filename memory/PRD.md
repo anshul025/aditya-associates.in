@@ -27,6 +27,7 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - Backend lead capture + listing endpoints (verified with curl)
 - Navbar dark/light adaptive states fixed after verification
 - **Supabase connected (2026-09-05):** leads now write to Supabase Postgres table `aditya_associate_leads`; Alembic migration applied; verified end-to-end via API curl and live website form submission
+- **Google Map card (2026-09-05):** embedded map of Mansarovar Complex office in Contact section, bilingual captions, verified in EN + HI
 
 ## Backlog
 - P0: (done) Supabase connection
