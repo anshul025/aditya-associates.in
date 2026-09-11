@@ -59,7 +59,7 @@ async def create_registration(input: RegistrationCreate, db: AsyncSession = Depe
 
 @api_router.get("/registrations", response_model=List[RegistrationOut])
 async def list_registrations(db: AsyncSession = Depends(get_db)):
-    result = await db.execute(select(Lead).order_by(Lead.created_at.desc()))
+    result = await db.execute(select(Lead).order_by(Lead.created_at.desc()).limit(500))
     return result.scalars().all()
 
 

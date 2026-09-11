@@ -34,6 +34,7 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - **Video trimming (2026-09-11):** 3 original videos AI-analyzed for highlights and trimmed with ffmpeg to short clips (7s net house interior, 12s rose polyhouse blooms, 11s polyhouse walkthrough), H.264/yuv420p/faststart, stored in /app/frontend/public/videos/. Titles updated to match real content. NOTE: playback unverifiable in headless test browser (no H.264 codec — original CDN videos fail there too); valid universal format, user should confirm on phone.
 - **Service Details section (2026-09-11):** new animated alternating image+text rows under services grid — Easy Bank Loan & Subsidy, MSME & Udyam, Food Processing Unit, Cold Storage — bilingual descriptions, 3 bullet points each, numbered watermarks, slide-in framer-motion animations, Apply buttons.
 - **Phone changed to 62663 53292 (2026-09-11):** hero, contact card, tel: links, form error messages, both languages. NOTE: visiting card IMAGE still shows old 74008 55738 — awaiting new card photo from user.
+- **Deployment readiness (2026-09-11):** deployment_agent health check run 3x. Fixed: unbounded /api/registrations query (now .limit(500)), .gitignore no longer blocks .env (Emergent deploy pipeline requirement). Final status: WARN/deployable — no blockers. Remaining notes are intentionally NOT actioned: supervisor mongodb section and MONGO_URL/DB_NAME are platform-protected/managed; Supabase accepted as external managed DB.
 - **Site title:** browser tab now "Aditya Associates".
 
 ## Backlog
