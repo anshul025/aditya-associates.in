@@ -1,28 +1,28 @@
 export const MEDIA = {
   videos: [
     {
-      id: "site-frame",
-      url: "https://customer-assets-lxgj4vgw.emergentagent.net/job_7ea3873d-8a7a-4d45-8cf1-6c124c91f689/artifacts/i9o4dvzq_video_2026-09-03_17-22-07.mp4",
-      title_en: "Polyhouse Frame & Film Installation",
-      title_hi: "पॉलीहाउस फ्रेम एवं फिल्म इंस्टॉलेशन",
-      tag_en: "Site Work",
-      tag_hi: "साइट कार्य",
+      id: "rose",
+      url: "/videos/rose-polyhouse.mp4",
+      title_en: "Rose Polyhouse in Full Bloom",
+      title_hi: "गुलाब का पॉलीहाउस — पूरी बहार में",
+      tag_en: "Inside Our Site",
+      tag_hi: "हमारी साइट के अंदर",
     },
     {
-      id: "structure",
-      url: "https://customer-assets-lxgj4vgw.emergentagent.net/job_7ea3873d-8a7a-4d45-8cf1-6c124c91f689/artifacts/oicbkoyv_video_2026-09-03_17-21-59.mp4",
-      title_en: "Structure Erection — Work in Progress",
-      title_hi: "संरचना निर्माण — कार्य प्रगति पर",
-      tag_en: "Construction",
-      tag_hi: "निर्माण",
+      id: "nethouse",
+      url: "/videos/nethouse-interior.mp4",
+      title_en: "Net House Interior — Healthy Crop Rows",
+      title_hi: "नेट हाउस अंदरूनी दृश्य — स्वस्थ फसल",
+      tag_en: "Net House",
+      tag_hi: "नेट हाउस",
     },
     {
-      id: "operational",
-      url: "https://customer-assets-lxgj4vgw.emergentagent.net/job_7ea3873d-8a7a-4d45-8cf1-6c124c91f689/artifacts/x9sn3l86_video_2026-09-03_17-22-20.mp4",
-      title_en: "Operational High-Tech Polyhouse",
-      title_hi: "चालू हाई-टेक पॉलीहाउस",
-      tag_en: "Finished Site",
-      tag_hi: "तैयार साइट",
+      id: "walkthrough",
+      url: "/videos/polyhouse-walkthrough.mp4",
+      title_en: "Polyhouse Walkthrough — Structure to Crop",
+      title_hi: "पॉलीहाउस दौरा — संरचना से फसल तक",
+      tag_en: "Site Tour",
+      tag_hi: "साइट दौरा",
     },
   ],
   netHousePhoto:
@@ -166,6 +166,81 @@ export const SERVICES = [
       "Cold room and packhouse projects with subsidy-linked financing and complete documentation.",
     desc_hi:
       "सब्सिडी-युक्त वित्तपोषण और संपूर्ण दस्तावेज़ीकरण के साथ कोल्ड रूम एवं पैकहाउस परियोजनाएं।",
+  },
+];
+
+export const SERVICE_DETAILS = [
+  {
+    id: "easy-bank-loan",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1000&q=80",
+    title_en: "Easy Bank Loan & Subsidy",
+    title_hi: "आसान बैंक ऋण एवं सब्सिडी",
+    desc_en: "We prepare your complete loan file — project report, income documents and quotations — and coordinate with the bank until your loan is sanctioned. You focus on farming; we handle the paperwork.",
+    desc_hi: "हम आपकी पूरी लोन फाइल तैयार करते हैं — प्रोजेक्ट रिपोर्ट, आय दस्तावेज़ और कोटेशन — और लोन मंज़ूर होने तक बैंक से समन्वय करते हैं। आप खेती पर ध्यान दें, कागज़ी कार्रवाई हम संभालेंगे।",
+    points_en: [
+      "Bankable project report (DPR) prepared by experts",
+      "Coordination with nationalised & cooperative banks",
+      "Loan structured to unlock maximum subsidy",
+    ],
+    points_hi: [
+      "एक्सपर्ट द्वारा बैंक-योग्य प्रोजेक्ट रिपोर्ट (DPR)",
+      "राष्ट्रीयकृत व सहकारी बैंकों से समन्वय",
+      "अधिकतम सब्सिडी के लिए लोन संरचना",
+    ],
+  },
+  {
+    id: "msme-detail",
+    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1000&q=80",
+    title_en: "MSME & Udyam — Full Support",
+    title_hi: "MSME एवं उद्यम — पूर्ण सहायता",
+    desc_en: "Register your agri-business as an MSME and claim capital subsidy, interest support and state incentives. From Udyam certificate to subsidy claim — everything handled under one roof.",
+    desc_hi: "अपने कृषि व्यवसाय को MSME के रूप में पंजीकृत करें और पूंजीगत सब्सिडी, ब्याज सहायता और राज्य प्रोत्साहन प्राप्त करें। उद्यम प्रमाणपत्र से लेकर सब्सिडी दावे तक — सब कुछ एक ही छत के नीचे।",
+    points_en: [
+      "Udyam registration certificate included",
+      "Capital & interest subsidy claim filing",
+      "State incentive and tender eligibility guidance",
+    ],
+    points_hi: [
+      "उद्यम पंजीकरण प्रमाणपत्र शामिल",
+      "पूंजीगत व ब्याज सब्सिडी दावा दाखिल करना",
+      "राज्य प्रोत्साहन और निविदा पात्रता मार्गदर्शन",
+    ],
+  },
+  {
+    id: "food-processing-detail",
+    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=80",
+    title_en: "Food Processing Unit Setup",
+    title_hi: "खाद्य प्रसंस्करण इकाई स्थापना",
+    desc_en: "Set up grading, sorting, packaging or value-addition units with PMKSY and state subsidy support — from application and machinery quotations to final inspection.",
+    desc_hi: "PMKSY और राज्य सब्सिडी सहायता के साथ ग्रेडिंग, सॉर्टिंग, पैकेजिंग या मूल्य-वर्धन इकाइयां स्थापित करें — आवेदन और मशीनरी कोटेशन से लेकर अंतिम निरीक्षण तक।",
+    points_en: [
+      "PMKSY & state scheme application filing",
+      "Machinery quotations and vendor coordination",
+      "Inspection and compliance handled end-to-end",
+    ],
+    points_hi: [
+      "PMKSY व राज्य योजना आवेदन दाखिल करना",
+      "मशीनरी कोटेशन और विक्रेता समन्वय",
+      "निरीक्षण और अनुपालन पूरी तरह संभालना",
+    ],
+  },
+  {
+    id: "cold-storage-detail",
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80",
+    title_en: "Cold Storage & Packhouse Projects",
+    title_hi: "कोल्ड स्टोरेज एवं पैकहाउस प्रोजेक्ट",
+    desc_en: "Complete cold room and packhouse projects — capacity planning, subsidy paperwork, bank loan and construction supervision. Protect your harvest and sell when prices are right.",
+    desc_hi: "संपूर्ण कोल्ड रूम और पैकहाउस प्रोजेक्ट — क्षमता योजना, सब्सिडी कागज़ी कार्रवाई, बैंक ऋण और निर्माण पर्यवेक्षण। अपनी फसल सुरक्षित रखें और सही भाव पर बेचें।",
+    points_en: [
+      "Capacity planning and project design",
+      "Subsidy + bank loan documentation",
+      "Construction supervision till commissioning",
+    ],
+    points_hi: [
+      "क्षमता योजना और प्रोजेक्ट डिज़ाइन",
+      "सब्सिडी + बैंक ऋण दस्तावेज़ीकरण",
+      "कमीशनिंग तक निर्माण पर्यवेक्षण",
+    ],
   },
 ];
 
@@ -365,6 +440,8 @@ const en = {
     chapter: "Chapter 01",
     title: "Everything a farmer or agri-entrepreneur needs — under one roof.",
     sub: "Thirteen specialised services, one accountable partner. Polyhouse is our flagship.",
+    detailTitle: "Key services, in detail",
+    detailSub: "Exactly what we handle for you — explained simply.",
   },
   poly: {
     chapter: "Chapter 02",
@@ -462,6 +539,8 @@ const hi = {
     chapter: "अध्याय 01",
     title: "किसान या कृषि उद्यमी की हर ज़रूरत — एक ही छत के नीचे।",
     sub: "तेरह विशेष सेवाएं, एक जिम्मेदार साथी। पॉलीहाउस हमारी मुख्य सेवा है।",
+    detailTitle: "प्रमुख सेवाएं, विस्तार से",
+    detailSub: "हम आपके लिए क्या-क्या संभालते हैं — सरल भाषा में समझें।",
   },
   poly: {
     chapter: "अध्याय 02",

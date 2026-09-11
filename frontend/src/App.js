@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import Services from "./components/Services";
+import ServiceDetails from "./components/ServiceDetails";
 import Polyhouse from "./components/Polyhouse";
 import Gallery from "./components/Gallery";
 import RegisterForm from "./components/RegisterForm";
@@ -50,6 +51,7 @@ function App() {
         <Hero t={t} />
         <Marquee items={t.marquee} />
         <Services t={t} lang={lang} />
+        <ServiceDetails t={t} lang={lang} />
         <Polyhouse t={t} lang={lang} />
         <Gallery t={t} lang={lang} />
         <RegisterForm t={t} lang={lang} />

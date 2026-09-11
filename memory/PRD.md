@@ -31,6 +31,10 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - **Polyhouse content expansion (2026-09-05):** user-supplied detail — GI structure definition, 7 polyhouse benefits (40–80% production, 40–60% water saving, export quality etc.), 10 polyhouse crops, net house explainer + 6 benefits + 8 crops, 12 polyhouse + 8 net house components, 9 essential systems, investment cards (₹700–1,200/sqm net, ₹1,000–2,000+/sqm poly), best-for chips. All bilingual.
 - **Subsidy figure change (2026-09-05):** all 50% claims changed to 35% per user instruction (hero, marquee, stats, services, benefits, comparison table, subsidy badge/note, form side graphic). NOTE: user's long text mentioned 40–70% subsidy range; explicit 35% instruction was followed — confirm with user if 40–70% should replace it.
 - **Calculator removed (2026-09-11):** user removed the instant-estimate calculator; replaced with a simple bilingual note in the investment block — "we start polyhouse projects from 4,000 sq. meter (about 1 acre) onwards". Prefill listener in RegisterForm also removed.
+- **Video trimming (2026-09-11):** 3 original videos AI-analyzed for highlights and trimmed with ffmpeg to short clips (7s net house interior, 12s rose polyhouse blooms, 11s polyhouse walkthrough), H.264/yuv420p/faststart, stored in /app/frontend/public/videos/. Titles updated to match real content. NOTE: playback unverifiable in headless test browser (no H.264 codec — original CDN videos fail there too); valid universal format, user should confirm on phone.
+- **Service Details section (2026-09-11):** new animated alternating image+text rows under services grid — Easy Bank Loan & Subsidy, MSME & Udyam, Food Processing Unit, Cold Storage — bilingual descriptions, 3 bullet points each, numbered watermarks, slide-in framer-motion animations, Apply buttons.
+- **Phone changed to 62663 53292 (2026-09-11):** hero, contact card, tel: links, form error messages, both languages. NOTE: visiting card IMAGE still shows old 74008 55738 — awaiting new card photo from user.
+- **Site title:** browser tab now "Aditya Associates".
 
 ## Backlog
 - P0: (done) Supabase connection
