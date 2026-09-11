@@ -19,7 +19,7 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - Polyhouse deep-dive: what/crops/benefits/comparison/subsidy/pitch
 - Real work gallery (videos + photos)
 - Apply/Register form: name, phone, service, district, message
-- Contact: 74008 55738, adityaassociates2025@gmail.com, MB7 Mezzanine Floor, Mansarovar Complex, Near BJP Office, Bhopal (M.P.)
+- Contact: 62663 53292, adityaassociates2025@gmail.com, MB7 Mezzanine Floor, Mansarovar Complex, Near BJP Office, Bhopal (M.P.)
 
 ## Implemented (2026-09-05)
 - Full single-page site: kinetic masked-reveal hero with real polyhouse video bg + parallax, editorial marquee, numbered chapters (01–05), services grid, polyhouse deep-dive with comparison table and 30-sec pitch, work gallery with 3 real videos, register form with phone validation + toast, contact with real visiting card, footer

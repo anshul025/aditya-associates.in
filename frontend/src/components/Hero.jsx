@@ -82,7 +82,7 @@ export default function Hero({ t }) {
             {t.hero.ctaWork}
           </a>
           <a
-            href="tel:+917400855738"
+            href="tel:+916266353292"
             data-testid="hero-call-btn"
             className="inline-flex items-center gap-2 text-[#fbf9f5]/85 hover:text-[#e09f3e] font-semibold text-sm sm:text-base transition-colors"
           >

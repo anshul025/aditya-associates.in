@@ -23,7 +23,7 @@ export default function Contact({ t }) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="flex flex-col gap-5">
             <motion.a
-              href="tel:+917400855738"
+              href="tel:+916266353292"
               data-testid="contact-phone-link"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ export default function Contact({ t }) {
               </span>
               <span>
                 <span className="block text-xs font-semibold uppercase tracking-wider text-[#fbf9f5]/60">{t.contact.phoneLabel}</span>
-                <span className="block font-display font-bold text-[#fbf9f5] text-xl sm:text-2xl mt-1">74008 55738</span>
+                <span className="block font-display font-bold text-[#fbf9f5] text-xl sm:text-2xl mt-1">62663 53292</span>
               </span>
             </motion.a>
 

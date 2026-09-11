@@ -352,7 +352,7 @@ const en = {
     sub: "Documents, DPR, bank loan, construction and subsidy — your entire polyhouse journey managed under one roof.",
     ctaApply: "Apply / Register",
     ctaWork: "See Our Work",
-    call: "Call: 74008 55738",
+    call: "Call: 62663 53292",
     stats: [
       { k: "40–80%", v: "Higher production" },
       { k: "35%", v: "Govt subsidy support" },
@@ -419,7 +419,7 @@ const en = {
     submitting: "Submitting…",
     successTitle: "Application received!",
     successMsg: "Thank you. Our team will call you within 24 hours.",
-    errorMsg: "Could not submit. Please call us at 74008 55738.",
+    errorMsg: "Could not submit. Please call us at 62663 53292.",
     invalidPhone: "Please enter a valid 10-digit mobile number.",
   },
   contact: {
@@ -449,7 +449,7 @@ const hi = {
     sub: "दस्तावेज़, डीपीआर, बैंक ऋण, निर्माण और सब्सिडी — आपकी पूरी पॉलीहाउस यात्रा एक ही छत के नीचे।",
     ctaApply: "आवेदन / पंजीकरण करें",
     ctaWork: "हमारा काम देखें",
-    call: "कॉल करें: 74008 55738",
+    call: "कॉल करें: 62663 53292",
     stats: [
       { k: "40–80%", v: "अधिक उत्पादन" },
       { k: "35%", v: "सरकारी सब्सिडी सहायता" },
@@ -516,7 +516,7 @@ const hi = {
     submitting: "जमा हो रहा है…",
     successTitle: "आवेदन मिल गया!",
     successMsg: "धन्यवाद। हमारी टीम 24 घंटे के भीतर कॉल करेगी।",
-    errorMsg: "जमा नहीं हो सका। कृपया 74008 55738 पर कॉल करें।",
+    errorMsg: "जमा नहीं हो सका। कृपया 62663 53292 पर कॉल करें।",
     invalidPhone: "कृपया सही 10 अंकों का मोबाइल नंबर डालें।",
   },
   contact: {
