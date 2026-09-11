@@ -190,7 +190,8 @@ export default function Polyhouse({ t, lang }) {
               </div>
             ))}
           </div>
-          <p className="mt-4 text-xs sm:text-sm text-[#4b5852]/80 italic">{t.poly.investNote}</p>
+          <p className="mt-4 text-sm font-semibold text-[#0f382c]" data-testid="min-land-note">{t.poly.minLand}</p>
+          <p className="mt-2 text-xs sm:text-sm text-[#4b5852]/80 italic">{t.poly.investNote}</p>
         </motion.div>
 
         {/* best for */}
