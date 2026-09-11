@@ -30,6 +30,7 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - **Google Map card (2026-09-05):** embedded map of Mansarovar Complex office in Contact section, bilingual captions, verified in EN + HI
 - **Polyhouse content expansion (2026-09-05):** user-supplied detail — GI structure definition, 7 polyhouse benefits (40–80% production, 40–60% water saving, export quality etc.), 10 polyhouse crops, net house explainer + 6 benefits + 8 crops, 12 polyhouse + 8 net house components, 9 essential systems, investment cards (₹700–1,200/sqm net, ₹1,000–2,000+/sqm poly), best-for chips. All bilingual.
 - **Subsidy figure change (2026-09-05):** all 50% claims changed to 35% per user instruction (hero, marquee, stats, services, benefits, comparison table, subsidy badge/note, form side graphic). NOTE: user's long text mentioned 40–70% subsidy range; explicit 35% instruction was followed — confirm with user if 40–70% should replace it.
+- **Cost Calculator (2026-09-11):** new section after Polyhouse — land area input (min 4,000 sq. meter, user-specified minimum), instant estimate at ₹1,000–₹2,000/sqm, 35% subsidy saving, net investment, Indian number formatting, bilingual, "Apply with this estimate" button that scrolls to the form and prefills service + message via CustomEvent. Verified EN + HI, error state, and prefill.
 
 ## Backlog
 - P0: (done) Supabase connection

@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import Services from "./components/Services";
 import Polyhouse from "./components/Polyhouse";
+import CostCalculator from "./components/CostCalculator";
 import Gallery from "./components/Gallery";
 import RegisterForm from "./components/RegisterForm";
 import Contact from "./components/Contact";
@@ -51,6 +52,7 @@ function App() {
         <Marquee items={t.marquee} />
         <Services t={t} lang={lang} />
         <Polyhouse t={t} lang={lang} />
+        <CostCalculator t={t} lang={lang} />
         <Gallery t={t} lang={lang} />
         <RegisterForm t={t} lang={lang} />
         <Contact t={t} />

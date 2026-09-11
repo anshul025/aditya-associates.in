@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
@@ -10,6 +10,13 @@ const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 export default function RegisterForm({ t, lang }) {
   const [form, setForm] = useState({ name: "", phone: "", service: "", district: "", message: "" });
   const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    const handler = (e) =>
+      setForm((f) => ({ ...f, service: "Poly House Construction & Subsidy", message: e.detail }));
+    window.addEventListener("prefill-estimate", handler);
+    return () => window.removeEventListener("prefill-estimate", handler);
+  }, []);
 
   const set = (k) => (e) => setForm({ ...form, [k]: e.target.value });
 
