@@ -35,6 +35,7 @@ Build an authentic, attractive bilingual (English/Hindi) business website for Ad
 - **Service Details section (2026-09-11):** new animated alternating image+text rows under services grid — Easy Bank Loan & Subsidy, MSME & Udyam, Food Processing Unit, Cold Storage — bilingual descriptions, 3 bullet points each, numbered watermarks, slide-in framer-motion animations, Apply buttons.
 - **Phone changed to 62663 53292 (2026-09-11):** hero, contact card, tel: links, form error messages, both languages. NOTE: visiting card IMAGE still shows old 74008 55738 — awaiting new card photo from user.
 - **Deployment readiness (2026-09-11):** deployment_agent health check run 3x. Fixed: unbounded /api/registrations query (now .limit(500)), .gitignore no longer blocks .env (Emergent deploy pipeline requirement). Final status: WARN/deployable — no blockers. Remaining notes are intentionally NOT actioned: supervisor mongodb section and MONGO_URL/DB_NAME are platform-protected/managed; Supabase accepted as external managed DB.
+- **Hero repositioned (2026-09-15):** user feedback — front page felt polyhouse-only. Hero now general welcome: "Every Subsidy, Loan & Approval — Under One Roof" / "हर सब्सिडी, ऋण और मंज़ूरी — एक ही छत के नीचे।", subtext names MSME/loans/GST/Udyam/polyhouse/cold storage, stats now 13+ services / 35% subsidy / 100% documents-to-delivery. Marquee reordered to lead with general services.
 - **Site title:** browser tab now "Aditya Associates".
 
 ## Backlog
